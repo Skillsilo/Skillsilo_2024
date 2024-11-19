@@ -25,6 +25,12 @@ export default function Header() {
             SignIn
           </li>
           </Link>
+          <Link to='/student-form'>
+          <li className="hidden sm:inline text-slate-700 hover:underline">
+            Student Form
+          </li>
+          </Link>
+           
         </ul>
       </div>
     </header>
